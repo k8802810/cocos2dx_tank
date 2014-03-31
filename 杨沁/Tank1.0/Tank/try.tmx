@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="屏幕快照 2014-02-12 下午7.27.48" tilewidth="32" tileheight="32">
+  <image source="屏幕快照 2014-02-12 下午7.27.48.png" width="37" height="42"/>
+ </tileset>
+ <layer name="块层 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz8EJAAAIxLBz/6VdQXyJJNABmgAAAAAAAAAAALBRw6778tE9GAAV
+  </data>
+ </layer>
+</map>

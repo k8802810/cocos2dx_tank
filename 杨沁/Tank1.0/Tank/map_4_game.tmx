@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="250" height="250" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grasss" tilewidth="32" tileheight="32">
+  <image source="grasss.png" width="41" height="50"/>
+ </tileset>
+ <tileset firstgid="2" name="grass2" tilewidth="32" tileheight="32">
+  <image source="grass2.png" width="51" height="48"/>
+ </tileset>
+ <layer name="grass" width="250" height="250">
+  <data encoding="base64" compression="zlib">
+   eJzt04EJADAMw7Cy/4/eESNkBQl8gmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD42VkQ8Kb9sM8hr/2wzyGv/bDPIa/9sM8h7wIWagGb
+  </data>
+ </layer>
+ <objectgroup draworder="topdown" name="Role" width="250" height="250">
+  <object name="player" x="171" y="7843"/>
+ </objectgroup>
+ <objectgroup draworder="topdown" name="coll" width="250" height="250">
+  <object name="rectcoll" x="6" y="7842" width="1304" height="152"/>
+ </objectgroup>
+ <objectgroup draworder="topdown" name="items" width="250" height="250">
+  <object name="gold" x="281" y="7748"/>
+  <object name="gold" x="350" y="7747"/>
+  <object name="gold" x="422" y="7748"/>
+  <object name="gold" x="489" y="7748"/>
+  <object name="gold" x="559" y="7713"/>
+  <object name="gold" x="618" y="7754"/>
+ </objectgroup>
+</map>
